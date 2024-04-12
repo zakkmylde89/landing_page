@@ -12,6 +12,8 @@ body {
     height: 100vh;
 }
 
+/*HEADER CSS*/
+
 .header {
     background: #232a4d;
     color: white;
@@ -53,12 +55,22 @@ a:link{
     margin-bottom: 30px;
 }
 
-.btn {
-    width: 60px;
-    height: 30px;
+.btn-top {
+    width: 150px;
+    height: 40px;
+    color: white;
+    border: 2px solid #232a4d;
+    background: #418dff;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.btn-bottom {
+    width: 150px;
+    height: 40px;
     color: white;
     background: #418dff;
-    border-radius: 8px 8px 8px 8px;
+    border: 2px solid white;
+    border-radius: 10px 10px 10px 10px;
 }
 
 .hero-img {
@@ -68,4 +80,91 @@ a:link{
     margin-right: 225px;
     margin-top: 60px;
     margin-bottom: 30px;
+}
+
+/*INFORMATION CSS*/
+
+.information {
+    margin-bottom: 60px;
+}
+
+.information-header {
+    max-width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.info-segments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+
+.info-segment1,
+.info-segment2,
+.info-segment3,
+.info-segment4 {
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    text-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-img {
+    width: 200px;
+    height: auto;
+}
+
+/*QUOTE CSS*/
+
+#quote {
+    height: 250px;
+    background: #a3a3a3;
+    padding: 30px auto 30px auto;
+    display: flex;
+    align-items: center;
+}
+
+.quote {
+    max-width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.quote-text {
+    font-size: 35px;
+}
+
+/*SIGNUP CSS*/
+
+#signup {
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    height: 175px;
+    width: 75vw;
+    background-color: #418dff;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.signup-text {
+    margin-left: 80px;
+}
+
+.signup-btn {
+    margin-left: auto;
+    margin-right: 80px;
 }
