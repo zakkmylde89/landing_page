@@ -16,7 +16,7 @@ body {
 /*HEADER CSS*/
 
 .header {
-    background: #232a4d;
+    background: #1f2937;
     color: white;
 }
 
@@ -25,8 +25,20 @@ body {
     align-items: center;
 }
 
+.hero-text-large {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #f9faf8;
+}
+
+.hero-text-small {
+    font-size: 18px;
+    padding: 8px;
+    color: #e5e7eb;
+}
+
 .header-logo-img {
-    margin-left: 225px;
+    margin-left: 400px;
     margin-right: auto;
     margin-top: 30px;
 }
@@ -34,7 +46,7 @@ body {
 .header-links {
     display: flex;
     margin-left: auto;
-    margin-right: 225px;
+    margin-right: 400px;
     font-size: 30px;
     gap: 30px;
 }
@@ -44,13 +56,18 @@ a:link{
     color: #bebebe;
 }
 
+a:visited {
+    text-decoration: none;
+    color: #0a9c05;
+}
+
 .header-bottom {
     display: flex;
     align-items: center;
 }
 
 .hero-text {
-    margin-left: 225px;
+    margin-left: 400px;
     margin-right: auto;
     margin-top: 60px;
     margin-bottom: 30px;
@@ -78,7 +95,7 @@ a:link{
     width: 600px;
     height: auto;
     margin-left: auto;
-    margin-right: 225px;
+    margin-right: 400px;
     margin-top: 60px;
     margin-bottom: 30px;
 }
@@ -178,7 +195,7 @@ a:link{
     height: 125px;
     width: 100vw;
     color: white;
-    background-color: #232a4d;
+    background-color: #1f2937;
     display: flex;
     justify-content: center;
     align-items: center;
